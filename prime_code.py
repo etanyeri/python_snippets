@@ -9,9 +9,10 @@ def count_primes(num):
     for i in range(2,num+1):
             if(num%i == 0):
                 prime=False
-                break
+            
         if prime:
             counter += 1
             print(num)
             
     return counter
+  

@@ -1,4 +1,4 @@
-#%%
+
 #testing if statements
 name = 'Jose'
 if name=='Frankie':
@@ -9,3 +9,9 @@ else:
     print('What is your name?')
 
 #%%
+def reverse(string):
+    string=''
+    string=string[::-1]
+
+    print(string)
+# %%
